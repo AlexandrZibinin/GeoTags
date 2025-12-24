@@ -17,7 +17,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djangorestframework',
     'geotags',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -84,3 +86,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+NULLABLE = {'blank': True, 'null': True}
